@@ -1,0 +1,28 @@
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons';
+
+// Custom styles
+.event-card {
+    transition: transform 0.2s;
+    height: 100%;
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+}
+
+.event-cover {
+    height: 200px;
+    object-fit: cover;
+}
+
+.category-badge {
+    font-size: 0.8rem;
+}
+
+.category-conference { background-color: #0d6efd; }
+.category-workshop { background-color: #198754; }
+.category-webinar { background-color: #0dcaf0; }
+.category-meetup { background-color: #ffc107; }
